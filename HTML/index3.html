@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Directory</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!--<div class="container text-center"-->
+      <!----<h1 class="jumbotron">Directorio de proveedores</h1>
+      <p>Laboratorio: {{direcciones.Colonia}}</p>
+       <div>-->
+      <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Proveedor</th>
+      <th>Nombre sucursal</th>
+      <th>Direcci�n</th>
+      <th>Delegaci�n o municipio</th>
+      <th>Colonia</th>
+      <th>LAT</th>
+      <th>LONG</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Surtidor</td>
+      <td>Observatorio</td>
+      <td>Av. Observatorio No. 260</td>
+      <td>Miguel Hidalgo</td>
+      <td>Daniel Garza Tel</td>
+      <td>19.403744</td>
+      <td>-99.192502</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Surtidor</td>
+      <td>Jalisco</td>
+      <td>Av. Jalisco No. 184-E</td>
+      <td>Miguel Hidalgo</td>
+      <td>Tacubaya</td>
+      <td>32.441947</td>
+      <td>-114.72894</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Surtidor</td>
+      <td>Tulyehualco</td>
+      <td>Av. Tl�huac No. 1479</td>
+      <td>Iztapalapa</td>
+      <td>Col. San Nicol�s Tolentino</td>
+      <td>59.9323</td>
+      <td>11.0203</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Surtidor</td>
+      <td>Ermita  Calz</td>
+      <td>Ermita Iztapalapa No. 550</td>
+      <td>Ermita Calz</td>
+      <td>Col. Mexicaltzingo</td>
+      <td>14.08333</td>
+      <td>79.58333</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Surtidor</td>
+      <td>Xochimilco</td>
+      <td>Prolong. Divisi�n del Norte No. 4991</td>
+      <td>Xochimilco</td>
+      <td>Col. San Lorenzo La Cebada</td>
+      <td>21.11028</td>
+      <td>-100.52472</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Surtidor</td>
+      <td>Tlalnepantla</td>
+      <td>Aut. M�xico-Quer�taro No. 3069</td>
+      <td>Tlalnepantla de Baz</td>
+      <td>Col. Tequesquinahuac</td>
+      <td>19.527965</td>
+      <td>-99.174117</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Surtidor</td>
+      <td>Echegaray</td>
+      <td>V�a Gustavo Baz Prada Nte. No. 85-A</td>
+      <td>Naucalpan de Ju�rez,</td>
+      <td>Col. Santa Mar�a Nativitas</td>
+      <td>19.382027</td>
+      <td>-98.975994</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Surtidor</td>
+      <td>Naucalpan</td>
+      <td>Blvd. �vila Camacho No. 445</td>
+      <td>Naucalpan de Ju�rez</td>
+      <td>Col. San Andr�s Atoto</td>
+      <td>19.613849</td>
+      <td>-99.30569</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Surtidor</td>
+      <td>Vallejo</td>
+      <td>Calz. Vallejo No. 738</td>
+      <td>Cuauhtemoc</td>
+      <td>Col. Coltongo</td>
+      <td>19.463495</td>
+      <td>-99.142121</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Surtidor</td>
+      <td>Toluca</td>
+      <td>Jos� Ma. Pino Su�rez Sur No. 1307</td>
+      <td>Lerdo</td>
+      <td>Col. Valle Verde</td>
+      <td>19.284893</td>
+      <td>-99.615658</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Surtidor</td>
+      <td>Monterrey</td>
+      <td>Av. Bernardo Reyes 5650</td>
+      <td>Col. Nuevo Leon</td>
+      <td>Col. Ferrocarrilera</td>
+      <td>25.714927</td>
+      <td>-100.339025</td>
+    </tr>
+  </tbody>
+</table> 
+            <!---{% for direccion in direcciones %}-->
+            <!--<div class="col-lg-4">-->
+                <!--<div class="card" style="width: 20rem;">-->
+                  <div class="card-body">
+                      <h4 class="card-title">Laboratorio: {{direcciones.Colonia}}</h4>
+                      <h6 class="card-subtitle mb-2 text-muted">Sucursal: {{ direcciones.Dirección}}</h6>
+                    </div>
+                </div>
+            </div>
+             {% endfor %}
+
+        </div>
+    </div 
+  </body>
+
+</html>
+
